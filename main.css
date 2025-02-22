@@ -1,0 +1,62 @@
+body {
+  margin: 20px 150px 0px;
+  font-family: "Space Mono", Arial, serif;
+
+  background-color: antiquewhite;
+}
+img {
+  width: 30px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: aquamarine;
+    border: 3px solid orange;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size: 4vw;
+    width: 100vw;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .partL > h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: clamp(24px, 5vw, 50px);
+  }
+  header > .partR > img {
+    width: 90%;
+    object-fit: contain;
+  }
+
+  .contact {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact > div > p {
+    font-size: 4vw;
+  }
+  .contact > div > a {
+    font-size: 3vw;
+  }
+  .contact > div > a:hover {
+    color: blue;
+    cursor: pointer;
+  }
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
