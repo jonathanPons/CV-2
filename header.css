@@ -58,8 +58,8 @@ h1 {
   color: black;
 }
 .contact > div > a:hover {
-  color: blue;
-  cursor: pointer;
+  color: #ff6600;
+  transition: color 0.3s ease-in-out;
 }
 .contact div:last-of-type img {
   width: 13px;

@@ -1,21 +1,20 @@
-# Projet CV-2
+# CV-2 Project
 
 ## Description
 
-C'est mon second Cv pour travailler de maniere structuré le HTML et le CSS
+This is my second CV project, aimed at practicing structured HTML and CSS development.
 
-## Fonctionnalités
+## Features
 
-- flexbox
-- Insertion google font
-- Hover sur lien
-- structure de la sementique
-- insertion d'image
-- Gestion de la dimension de la photo
+- Flexbox for layout
+- Google Fonts integration
+- Hover effects on links
+- Semantic HTML structure
+- Image insertion and management
+- Photo dimension control
+- Responsive design with media queries
 
-## Prérequis
+## Prerequisites
 
-- CSS
-- HTML
-
-## Installation
+- Basic knowledge of CSS
+- Basic knowledge of HTML
